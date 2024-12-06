@@ -9,7 +9,10 @@ header {
   height: 100%;
   position: relative;
 }
-
+.header__container > p {
+  text-align: center;
+  font-size: xx-large;
+}
 .cta {
   display: flex;
   justify-content: center;
@@ -68,6 +71,9 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-    font-size: medium;
+  }
+  .header__container > p {
+    text-align: center;
+    font-size: larger;
   }
 }
