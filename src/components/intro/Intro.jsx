@@ -33,9 +33,9 @@ const Intro = () => {
               <VscFolderLibrary className="about__icon" />
               <h5>Administration,Designing & Front End Developer </h5>
               <small>
-                I have six years of experience in administration and industry,
+                "I have six years of experience in administration and industry,
                 showcasing my ability to manage operations efficiently and
-                contribute to organizational success.{" "}
+                contribute to organizational success."{" "}
               </small>
             </article>
           </div>
