@@ -29,19 +29,19 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React JS , Next Js-(I-Learn)</h4>
+              <h4>React JS </h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Typescript (I-will-Learn)</h4>
+              <h4>Node.js (I-Learn)</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Express.js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Firebase</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node.js, Express.js(I-Learn)</h4>
             </article>
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />

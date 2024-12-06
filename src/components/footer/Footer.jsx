@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#home" className="footer__logo">
-        Mr.Manivannan M.E.,
+        Mr.J.Manivannan M.E.,
       </a>
       <ul className="permalinks">
         <li>
