@@ -31,18 +31,18 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
+      {/* <h5>Get In Touch</h5>
       <h5>
         I do receive your messages and will respond asap if the valid email is
         provided :)
-      </h5>
-      <h2>Contact Me</h2>
+      </h5> */}
+      <h2>Get In Touch</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>manijas7486@gmail.com</h5>
+            <h4>manijas7486@gmail.com</h4>
             <a href="mailto:manijas7486@gmail.com">Send a message</a>
             <h4>Mobile Number</h4>
             <h3>8610257427</h3>
@@ -70,7 +70,11 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply as soon as possible :)</span>}
+          {message && (
+            <span>
+              Thanks, I don't link with my mail you call my number : 8610257427
+            </span>
+          )}
         </form>
       </div>
     </section>

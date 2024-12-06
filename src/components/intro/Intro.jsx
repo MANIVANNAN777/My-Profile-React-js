@@ -10,12 +10,12 @@ import img from "../../assets/Me.jpg";
 const Intro = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h2>Get to know About Me</h2>
+
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={img} alt="Rasif Taghizade" />
+            <img src={img} alt="Manivannan" />
           </div>
         </div>
         <div className="about__content">
@@ -23,23 +23,29 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Teaching Experience</h5>
-              <small>I had arround 8 year Experiance in teaching Field</small>
+              <small>
+                "I have nearly eight years of experience in the teaching
+                profession, showcasing my expertise in educating and mentoring
+                students."
+              </small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Administration,Designing & Front End Developer </h5>
               <small>
-                I had 6 Years Experiance in Administration And Industry{" "}
+                I have six years of experience in administration and industry,
+                showcasing my ability to manage operations efficiently and
+                contribute to organizational success.{" "}
               </small>
             </article>
           </div>
           <p>
-            "Passionate Computer Science educator with 10+ years of experience
-            in developing engaging curricula and fostering student success.
-            Skilled in programming & designing, software development, and
-            integrating technology into the classroom. Dedicated to inspiring
-            and mentoring students at ourinstitution . Seeking to contribute to
-            our academic
+            "Passionate Computer Science educator with over 10 years of
+            experience in creating engaging curricula and fostering student
+            success. Proficient in programming, software development, and
+            integrating technology into the classroom, with a strong commitment
+            to inspiring and mentoring students at our institution. Seeking an
+            opportunity to contribute to academic excellence and innovation."
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

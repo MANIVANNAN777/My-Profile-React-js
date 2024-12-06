@@ -5,7 +5,7 @@ import "./experience.css";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The Skills I Have</h5>
+      {/* <h5>The Skills I Have</h5> */}
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -43,14 +43,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Node.js, Express.js(I-Learn)</h4>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Responsive Design, BEM Methodology</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Redux, Redux-toolkit, Context API (I-Learn)</h4>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
