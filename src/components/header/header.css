@@ -60,6 +60,11 @@ header {
   header {
     height: 60vh;
   }
+  header {
+    height: 100%;
+    padding-top: 5rem;
+    overflow: hidden;
+  }
   .text-light {
     font-size: medium;
   }
@@ -74,6 +79,6 @@ header {
   }
   .header__container > p {
     text-align: center;
-    font-size: larger;
+    font-size:x-large;
   }
 }
